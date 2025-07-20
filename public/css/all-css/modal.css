@@ -1,0 +1,79 @@
+/* Modal Styles */
+.modal-content {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.modal-header {
+    border-bottom: 1px solid #eee;
+    padding: 1.5rem;
+}
+
+.modal-title {
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-footer {
+    border-top: 1px solid #eee;
+    padding: 1.5rem;
+}
+
+/* Medicine Details Modal */
+#medicineDetailsModal .modal-dialog {
+    max-width: 800px;
+}
+
+#medicineDetailsModal .modal-body img {
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+#medicineDetailsModal .modal-body h4 {
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+#medicineDetailsModal .modal-body .text-muted {
+    color: #6c757d !important;
+}
+
+#medicineDetailsModal .modal-body .text-primary {
+    color: #0d6efd !important;
+    font-weight: 600;
+}
+
+#medicineDetailsModal .modal-footer .btn {
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+}
+
+/* Modal Animation */
+.modal.fade .modal-dialog {
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in-out;
+}
+
+.modal.show .modal-dialog {
+    transform: scale(1);
+}
+
+/* Responsive Modal */
+@media (max-width: 767px) {
+    #medicineDetailsModal .modal-dialog {
+        margin: 0.5rem;
+    }
+    
+    #medicineDetailsModal .modal-body {
+        padding: 1rem;
+    }
+    
+    #medicineDetailsModal .modal-footer {
+        padding: 1rem;
+    }
+} 

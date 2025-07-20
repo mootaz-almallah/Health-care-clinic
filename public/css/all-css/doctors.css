@@ -1,0 +1,236 @@
+/* Doctors Page Styles */
+:root {
+    --primary-color: #223a66;
+    --secondary-color: #3590b0;
+    --light-gray: #f8f9fa;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #4baed1 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Background */
+body {
+    background-color: #fff !important;
+}
+
+/* Section Styles */
+.doctors-section {
+    background-color: #f8f9fa !important;
+    padding-top: 100px;
+}
+
+/* Button Styles */
+.btn-main {
+    background-color: #3590b0;
+    border-color: #3590b0;
+    color: white;
+}
+
+.btn-main:hover {
+    background-color: #2c7a95;
+    border-color: #2c7a95;
+}
+
+.bg-main {
+    background-color: #3590b0 !important;
+}
+
+.btn-main-2 {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    transition: all 0.2s ease;
+}
+
+.btn-main-2:hover {
+    background-color: #2c7a95;
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* Card Styles */
+.doctor-card {
+    transition: all 0.2s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    max-width: 300px;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card .position-relative {
+    height: 150px;
+    overflow: hidden;
+}
+
+.doctor-card img {
+    object-fit: cover;
+}
+
+.doctor-card h5 {
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.doctor-card p {
+    color: var(--secondary-color);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.doctor-card .badge {
+    font-size: 0.7rem;
+}
+
+.doctor-card small {
+    font-size: 0.8rem;
+}
+
+.doctor-card i {
+    color: #6c757d;
+    font-size: 0.8rem;
+}
+
+/* Search Card Styles */
+.search-card {
+    background: white;
+    border-top: 3px solid var(--secondary-color);
+}
+
+.search-card h3 {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Filter Section Styles */
+.filter-section h4 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.filter-section h5 {
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.filter-options {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.filter-options label {
+    font-size: 0.9rem;
+}
+
+.filter-section button {
+    font-size: 0.9rem;
+}
+
+/* Quick Stats Styles */
+.quick-stats h5 {
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.stats-item {
+    font-size: 0.9rem;
+}
+
+/* Available Doctors Section */
+.available-doctors h4 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.available-doctors .badge {
+    font-size: 0.8rem;
+}
+
+.available-doctors span {
+    font-size: 0.9rem;
+}
+
+.available-doctors select {
+    width: 160px;
+    font-size: 0.9rem;
+}
+
+/* Alert Styles */
+.alert {
+    font-size: 0.9rem;
+}
+
+.alert-heading {
+    font-size: 1rem;
+}
+
+/* Divider */
+.divider {
+    border-top: 2px solid var(--secondary-color);
+    opacity: 0.7;
+}
+
+/* Form Styles */
+.form-check-input:checked {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* Pagination Styles */
+.page-link {
+    color: var(--primary-color);
+    border: 1px solid #dee2e6;
+}
+
+.page-item.active .page-link {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+}
+
+.page-link:hover {
+    color: #2c7a95;
+    background-color: #f8f9fa;
+}
+
+/* Input Group Styles */
+.input-group-text {
+    background-color: white;
+    border-right: none;
+}
+
+.form-control, .form-select {
+    border-left: none;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+/* Sticky Container */
+.sticky-container {
+    position: sticky;
+    top: 100px;
+}
+
+/* Responsive Styles */
+@media (max-width: 767.98px) {
+    .search-card {
+        padding: 1.5rem;
+    }
+
+    .doctor-card {
+        max-width: 100% !important;
+    }
+} 

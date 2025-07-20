@@ -1,0 +1,149 @@
+/* Doctor Page Styles */
+:root {
+    --primary-color: #3590b0;
+    --secondary-color: #223a66;
+    --light-gray: #f8f9fa;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #4baed1 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+section {
+    padding-top: 100px;
+}
+
+/* Text Colors */
+.text-primary {
+    color: #3590b0 !important;
+}
+
+/* Button Styles */
+.btn-outline-primary {
+    border-color: #3590b0 !important;
+    color: #3590b0 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3590b0 !important;
+    color: white !important;
+}
+
+.btn-primary {
+    background-color: #3590b0 !important;
+    border-color: #3590b0 !important;
+}
+
+/* Navbar Link Styles */
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .dropdown-toggle,
+.navbar-nav .nav-link,
+.navbar-brand,
+.navbar-dark .navbar-nav .nav-link,
+.navbar-expand-lg .navbar-nav .nav-link,
+.navbar ul.navbar-nav li a.nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Override Bootstrap Navbar Styles */
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-light .navbar-brand {
+    color: white !important;
+}
+
+/* Navbar Button Styles */
+.navbar .btn-auth {
+    color: white !important;
+}
+
+/* Custom Scrollbar Styles */
+.custom-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #e2e8f0 #f8fafc;
+}
+
+.custom-scroll::-webkit-scrollbar {
+    width: 4px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background: #f8fafc;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background-color: #e2e8f0;
+    border-radius: 20px;
+}
+
+/* Doctor Profile Card Styles */
+.doctor-profile-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-image {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+/* Appointment Slot Styles */
+.appointment-slot {
+    background-color: #f8fafc;
+    color: #4a5568;
+    font-size: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.appointment-slot:hover {
+    background-color: #ebf8ff;
+    color: var(--primary-color);
+}
+
+/* Modal Styles */
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Warning Message Styles */
+.warning-message {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 1rem;
+}
+
+/* Success Message Styles */
+.success-message {
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+    padding: 1rem;
+} 

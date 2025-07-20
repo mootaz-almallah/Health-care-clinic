@@ -1,0 +1,29 @@
+EDA Summary for Digestive Disease Prediction
+===========================================
+
+Total number of samples: 1080
+Number of features (symptoms): 36
+Number of classes (diseases): 9
+
+Class Distribution:
+  Alcoholic hepatitis: 120 samples
+  GERD: 120 samples
+  Gastroenteritis: 120 samples
+  Hepatitis B: 120 samples
+  Hepatitis C: 120 samples
+  Hepatitis D: 120 samples
+  Hepatitis E: 120 samples
+  Jaundice: 120 samples
+  Peptic ulcer diseae: 120 samples
+
+Top 10 Most Common Symptoms:
+  vomiting: 786 occurrences
+  abdominal_pain: 690 occurrences
+  yellowish_skin: 684 occurrences
+  loss_of_appetite: 570 occurrences
+  fatigue: 570 occurrences
+  yellowing_of_eyes: 462 occurrences
+  dark_urine: 456 occurrences
+  nausea: 342 occurrences
+  high_fever: 228 occurrences
+  itching: 228 occurrences
